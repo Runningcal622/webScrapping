@@ -3,4 +3,4 @@ s.src = "https://d3js.org/d3.v5.js";
 var body = document.getElementsByTagName("body")[0];
 body.after(s);
 
-d3.selectAll(".fusion-text p a").nodes().forEach(function(e){console.log(e.innerText);});
+d3.selectAll(".grid .course .number").nodes().forEach(function(e){console.log(e.innerText);});
